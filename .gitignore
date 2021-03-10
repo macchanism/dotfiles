@@ -1,6 +1,7 @@
 .DS_Store
 *~
 *.swp
+
 .CFUserTextEncoding
 .Trash/
 .atom/
@@ -12,3 +13,6 @@
 .viminfo
 .zsh_history
 .zsh_sessions
+
+.zprofile
+.zshrc
