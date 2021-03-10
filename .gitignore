@@ -6,6 +6,7 @@
 .Trash/
 .atom/
 .cups/
+.history
 .matplotlib/
 .python_history
 .ssh/

@@ -12,6 +12,9 @@ Atom
 Common UNIX Printing System
 Unix系OS用のモジュール化された印刷システム
 
+.history
+historyコマンド
+
 .matplotlib
 matplotlibの設定
 
