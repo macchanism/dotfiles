@@ -11,6 +11,7 @@
 .python_history
 .ssh/
 .viminfo
+.vim/.netrwhist
 .zsh_history
 .zsh_sessions
 
