@@ -17,3 +17,11 @@
 
 .zprofile
 .zshrc
+
+.bash_history
+.bash_logout
+.bashrc
+.cache
+.local
+.profile
+.sudo_as_admin_successful
