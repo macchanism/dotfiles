@@ -9,5 +9,6 @@
 .matplotlib/
 .python_history
 .ssh/
+.viminfo
 .zsh_history
 .zsh_sessions
