@@ -1,0 +1,47 @@
+# ignore
+.CFUserTextEncoding
+最優先でロケールとして適用される言語を設定
+
+.Trash
+Macのゴミ箱
+
+.atom
+Atom
+
+.cups
+Common UNIX Printing System
+Unix系OS用のモジュール化された印刷システム
+
+.gitconfig
+Gitの共通設定ファイル
+
+.matplotlib
+matplotlibの設定
+
+.python_history
+pythonインタープリタの履歴
+
+.ssh/
+sshの設定
+
+.viminfo
+vimの変更履歴などを保存
+
+.zsh_history
+実行したコマンドの履歴
+
+.zsh_sessions
+> セッションに固有のHISTFILEおよび.sessionファイルを格納するために使用されます
+
+.zprofile
+.zshrc
+
+.vim/.netrwhist
+わからん
+
+# not ignore
+.vim/colors
+色関係
+
+.vimrc
+vimの設定
