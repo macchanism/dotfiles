@@ -1,3 +1,13 @@
 .DS_Store
 *~
 *.swp
+.CFUserTextEncoding
+.Trash/
+.atom/
+.cups/
+.gitconfig
+.matplotlib/
+.python_history
+.ssh/
+.zsh_history
+.zsh_sessions
