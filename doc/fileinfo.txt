@@ -12,9 +12,6 @@ Atom
 Common UNIX Printing System
 Unix系OS用のモジュール化された印刷システム
 
-.gitconfig
-Gitの共通設定ファイル
-
 .matplotlib
 matplotlibの設定
 
@@ -40,6 +37,9 @@ vimの変更履歴などを保存
 わからん
 
 # not ignore
+.gitconfig
+Gitの共通設定ファイル
+
 .vim/colors
 色関係
 
