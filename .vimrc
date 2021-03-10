@@ -30,6 +30,9 @@ set number
 set title
 "改行時に前のインデントの設定を引き継ついでインデント
 set smartindent
+"カーソルのある行番号をハイライト
+set cursorline
+hi clear CursorLine
 
 
 " 編集箇所のカーソルを記憶
