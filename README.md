@@ -11,7 +11,18 @@ cd ~
 git clone https://github.com/macchanism/dotfiles.git
 ```
 
-3. install dotfiles
+3. permition setting
 ```sh
-dotfiles/install.sh
+cd dotfiles
+chmod +x install.sh
 ```
+
+4. install dotfiles
+```sh
+./install.sh
+```
+
+## 一覧
+ * .vim/
+ * .gitconfig
+ * .vimrc
