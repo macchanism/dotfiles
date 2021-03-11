@@ -7,12 +7,8 @@ THIS_DIR=$(cd $(dirname $0); pwd)
 BASEDIR=$(dirname $0)
 cd $BASEDIR
 
-# dotfilesディレクトリにある、ドットから始まり2文字以上の名前のファイルに対して
-for f in .??*; do
-    # スキップするパターン
-    [ "$f" = ".DS_Store" ] && continue
-    [ "$f" = ".git" ] && continue
-    [ "$f" = ".gitignore" ] && continue
+List=(".gitconfig" ".vim" ".vimrc")
 
-    ln -snfv ${PWD}/"$f" ~/
+for item in ${List[@]}; do
+  ln -snfv ${PWD}/$item ~/
 done
