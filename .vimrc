@@ -35,6 +35,14 @@ set cursorline
 hi clear CursorLine
 
 
+"----------
+"表示設定
+"----------
+"クリックでカーソル移動、ホイールでスクロール
+set mouse=a
+set ttymouse=xterm2
+
+
 " 編集箇所のカーソルを記憶
 if has("autocmd")
   augroup redhat
