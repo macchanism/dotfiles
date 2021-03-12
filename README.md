@@ -22,7 +22,9 @@ chmod +x install.sh
 ./install.sh
 ```
 
-## 一覧
- * .vim/
- * .gitconfig
- * .vimrc
+## List
+ * vim
+  - .vim/
+  - .vimrc
+ * Git
+  - .gitconfig
