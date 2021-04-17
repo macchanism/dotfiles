@@ -13,7 +13,7 @@ for item in ${List0[@]}; do
   touch ${PWD}/$item
 done
 
-List1=(".shrc" ".zshrc")
+List1=(".common_shrc" ".zshrc")
 
 for item in ${List1[@]}; do
   ln -snfv ${PWD}/$item ~/
