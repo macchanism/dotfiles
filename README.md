@@ -25,6 +25,12 @@ chmod +x install.sh
 ```
 
 ### install_zsh.sh
+If .zshrc exists there, cp it as .zshrc.local in the same directory.
+```sh
+cd ~
+cp .zshrc .zshrc.local
+```
+
 1. permition setting
 ```sh
 cd dotfiles
@@ -34,6 +40,11 @@ chmod +x install_zsh
 2. install dotfiles
 ```sh
 ./install_zsh
+```
+
+3. run this
+```sh
+source ~/.zshrc
 ```
 
 
