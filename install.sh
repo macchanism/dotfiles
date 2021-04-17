@@ -10,7 +10,7 @@ cd $BASEDIR
 List0=(".gitconfig.local")
 
 for item in ${List0[@]}; do
-  touch ${PWD}/$item
+  touch $HOME/$item
 done
 
 List1=(".gitconfig" ".vim" ".vimrc")
