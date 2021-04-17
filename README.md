@@ -1,6 +1,7 @@
 # dotfiles
 
 ## Install
+### First
 1. move to home directory
 ```sh
 cd ~
@@ -11,16 +12,30 @@ cd ~
 git clone https://github.com/macchanism/dotfiles.git
 ```
 
-3. permition setting
+### install.sh
+1. permition setting
 ```sh
 cd dotfiles
 chmod +x install.sh
 ```
 
-4. install dotfiles
+2. install dotfiles
 ```sh
 ./install.sh
 ```
+
+### install_zsh.sh
+1. permition setting
+```sh
+cd dotfiles
+chmod +x install_zsh
+```
+
+2. install dotfiles
+```sh
+./install_zsh
+```
+
 
 ## List
  - vim
@@ -28,6 +43,10 @@ chmod +x install.sh
      - .vimrc
  - Git
      - .gitconfig
+ - zsh
+     - .zshrc
+     - .common_shrc
+
 
 ## Reference
  - about dotfiles
