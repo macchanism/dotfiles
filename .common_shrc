@@ -14,8 +14,11 @@ setopt inc_append_history
 setopt share_history
 
 # alias
+# = ls =
 alias la='ls -la'
 alias ll='ls -l'
+
+# = else =
 alias mv='mv -i'
 alias rm='rm -i'
 alias cp='cp -i'
