@@ -1,6 +1,6 @@
 # include
-[ -f ~/.common_shrc ] && source ~/.common_shrc
-[ -f ~/.zshrc.local ] && source ~/.zshrc.local
+[ -f $HOME/.common_shrc ] && source $HOME/.common_shrc
+[ -f $HOME/.zshrc.local ] && source $HOME/.zshrc.local
 
 # alias
 # history

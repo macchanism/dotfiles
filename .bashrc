@@ -1,3 +1,3 @@
 # include
-[ -f ~/.common_shrc ] && source ~/.common_shrc
-[ -f ~/.bashrc.local ] && source ~/.bashrc.local
+[ -f $HOME/.common_shrc ] && source $HOME/.common_shrc
+[ -f $HOME/.bashrc.local ] && source $HOME/.bashrc.local
