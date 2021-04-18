@@ -5,6 +5,6 @@
 # alias
 # history
 # = 実行時に履歴をファイルにに追加していく =
-setopt inc_append_history
+#setopt inc_append_history
 # = 履歴を他のシェルとリアルタイム共有する =
-setopt share_history
+#setopt share_history
