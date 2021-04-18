@@ -1,3 +1,32 @@
 # include
-[ -f $HOME/.common_shrc ] && source $HOME/.common_shrc
 [ -f $HOME/.tcshrc.local ] && source $HOME/.tcshrc.local
+
+setenv LANG ja_JP.UTF-8
+setenv EDITOR vim
+
+# alias
+# = ls =
+alias la 'ls -la'
+alias ll 'ls -l'
+
+# = git =
+alias gitst 'git status'
+alias gitad 'git add'
+alias gitps 'git push'
+alias gitpl 'git pull'
+alias gitbr 'git branch'
+alias gitco 'git checkout'
+alias gitcob 'git checkout -b'
+alias gitcom 'git checkout master'
+alias gitcm 'git commit -m'
+alias gitcma 'git commit -a -m'
+alias gitdf 'git diff'
+alias gitmg 'git merge'
+
+# = else =
+alias mv 'mv -i'
+alias rm 'rm -i'
+alias cp 'cp -i'
+alias mkdir 'mkdir -p'
+alias python 'python3'
+alias cddot 'cd $HOME/dotfiles'
