@@ -18,5 +18,3 @@ List1=(".common_shrc" ".bashrc")
 for item in ${List1[@]}; do
   ln -snfv ${PWD}/$item $HOME/
 done
-
-source $HOME/.bashrc
