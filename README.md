@@ -34,7 +34,7 @@ cp .zshrc .zshrc.local
 1. permition setting
 ```sh
 cd dotfiles
-chmod +x install_zsh
+chmod +x install_zsh.sh
 ```
 
 2. install dotfiles
