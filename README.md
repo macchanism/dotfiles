@@ -42,7 +42,7 @@ chmod +x install_zsh.sh
 ./install_zsh
 ```
 
-3. run this
+3. run this if the new config is not activated.
 ```sh
 source ~/.zshrc
 ```
