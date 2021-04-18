@@ -29,6 +29,7 @@ alias gitcob='git checkout -b'
 alias gitcm='git commit -m'
 alias gitcma='git commit -a -m'
 alias gitdf='git diff'
+alias gitmg='git merge'
 
 # = else =
 alias mv='mv -i'
