@@ -47,6 +47,8 @@ chmod +x install_zsh
 source ~/.zshrc
 ```
 
+Do the same steps when you use bash.
+
 
 ## List
  - vim
