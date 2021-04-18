@@ -7,16 +7,16 @@ THIS_DIR=$(cd $(dirname $0); pwd)
 BASEDIR=$(dirname $0)
 cd $BASEDIR
 
-List0=(".bashrc.local")
+List0=(".tcshrc.local")
 
 for item in ${List0[@]}; do
   touch $HOME/$item
 done
 
-List1=(".common_shrc" ".bashrc")
+List1=(".common_shrc" ".tcshrc")
 
 for item in ${List1[@]}; do
   ln -snfv ${PWD}/$item $HOME/
 done
 
-source $HOME/.bashrc
+source $HOME/.tcshrc
