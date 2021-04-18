@@ -1,5 +1,5 @@
-setenv LANG ja_JP.UTF-8
-setenv EDITOR vim
+export LANG=ja_JP.UTF-8
+export EDITOR=vim
 
 # alias
 # = ls =
